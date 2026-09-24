@@ -12,10 +12,21 @@ Hämta ut den branch du är intresserad av.
 
 ### Exempel
 
+Klona repot, gå in i mappen `vite-template` och kör `npm install` för att installera alla beroenden.
+
 ```zsh
-git pull
-git checkout async-await
-cd async-await
+cd vite-template
+npm install
 ```
 
-osv.
+Därefter kan du hämta ut den branch som tillhör videon du kollar på.
+
+```zsh
+git checkout video/01-var-let-const
+```
+
+Och starta utvecklingsservern med:
+
+```zsh
+npm run dev
+```
